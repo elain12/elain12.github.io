@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jujutsu Kaisen Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="img/Jujutsu_kaisen.png" class="logo"></a>
+            <div>
+            <ul>
+                <li><a href="file:///E:/RPL%20Punya/jujutsu%20kaisen/index.html">HOME</a></li>
+                <li><a href="file:///E:/RPL%20Punya/jujutsu%20kaisen/character.html">CHARACTER</a></li>
+                <li><a href="file:///E:/RPL%20Punya/jujutsu%20kaisen/Story.html">STORY</a></li>
+
+            </ul>
+        </div>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Jujutsu Kaisen <br>It's Japannese Shounen <span>Manga</span></h2>
+                <p>The manga has been published in Shueisha's Weekly Shonen Jump magazine since March 2018, and has published fifteen tankōbon volumes as of March 2021.
+                </p> <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/yuji.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/megumi.png" width="200" onclick="imgSlider('img/megumi.png')"></li>
+            <li><img src="img/gojo2.png"  width="200" onclick="imgSlider('img/gojo2.png')"></li>
+            <li><img src="img/nobara.png" width="200" onclick="imgSlider('img/nobara.png')"></li>
+            <li><img src="img/yuji.png"   width="200" onclick="imgSlider('img/yuji.png')"></li>
+            <li><img src="img/toge.png"   width="200" onclick="imgSlider('img/toge.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.starbucks').src = anything;
+    }
+
+    </script>
+</body>
+</html>
